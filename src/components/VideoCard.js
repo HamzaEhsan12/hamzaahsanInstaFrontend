@@ -190,7 +190,7 @@ const renderMedia = () => {
                 style={{ 
                   cursor: 'pointer', 
                   color: star <= (hoverRating || rating) ? 'gold' : 'gray',
-                  fontSize: '1.8rem',
+                  fontSize: '1.5rem',
                   marginRight: '5px'
                 }}
               >

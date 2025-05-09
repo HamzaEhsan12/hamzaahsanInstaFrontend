@@ -36,12 +36,6 @@ function ConsumerView() {
           className="form-control"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          style={{
-            width: "300px", 
-            float: "right",  
-            backgroundColor: "yellow"
-            // marginBottom: "2rem", 
-          }}
         />
       </div>
       <div className="media-feed">
